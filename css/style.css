@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo{
+    color: rgb(24, 24, 24);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "PlayfairDisplay-Regular";
+}
+
+img.header-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.first_paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.paragraph-container{
+    padding: 50px 200px 50px 200px;
+    margin-left: 60px;
+}
+
+p.headline{
+    text-transform: uppercase;
+    opacity: 40%;
+}
+
+p.main-headline{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 20px 0;
+    opacity: 70%;
+}
+
+.paragraph-content{
+    text-align: left;
+    font-size: 20px;
+    
+    opacity: 70%;
+}
+
+.last-headline{
+    margin: 45px 0 0 0;
+    text-transform: uppercase;
+    opacity: 40%;
+}
+
+#news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.news-bloc1 {
+    max-width: 35%;
+    padding: 25px;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.news-bloc2 {
+    max-width: 35%;
+    padding: 25px;
+    text-align: justify;
+    margin: 10px;
+    margin-bottom: 60px;
+}
+
+p.news-tag {
+    font-size: 14px;
+    font-family: "PlayfairDisplay-Regular";
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    opacity: 40%;
+}
+
+p.news-headline {
+    font-size: 30px;
+    font-family: "PlayfairDisplay-Regular";
+    opacity: 70%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p.news-text {
+    font-size: 14px;
+    opacity: 40%;
+    max-width: 85%;
+}
+
+.newsletter {
+    height: 287px;
+    background-color: #f0f0f0;
+    justify-content: center;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: flex-end;
+}
+.imputemail {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+input.emailadress{
+    width: 360px;
+    border: none;
+    outline: none;
+    border-color: transparent;
+    border-bottom: 1px solid #000;
+    background-color: #f0f0f0;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+::placeholder { 
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Playfair Display";
+   }
+
+.send-btn {
+    width: 25px;
+    height: 25px;
+}
+
+
+p.call-toaction {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+    align-items: center;
+
+}
+
+#bottom-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#btn-more{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    align-items: flex-end;
+    margin-bottom: 90px;
+}
+
+.load-more {
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    background-color: transparent;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    height: 97px;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+.privacypol {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 220px;
+}
+
+.privacypol p+p {
+    margin-left: 20px;
+}
+
+a.terms{
+    text-decoration: none;
+    color: #000;
+    opacity: 80%;
+    font-weight: 400;
+}
+
+.social {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 220px;
+    cursor: pointer;
+}
+
+.social p {
+    margin-right: 10px;
+}
+
+i.fa-brands {
+    opacity: 60%;
+}
+.social i+i { 
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Ubuntu-Medium";
+    src: url("../fonts/Ubuntu-Medium.ttf") format(tuetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: url("../fonts/PlayfairDisplay-Regular.ttf") format(tuetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
